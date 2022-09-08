@@ -1,0 +1,11 @@
+.folder {
+    color: lightseagreen;
+    cursor: pointer;
+  }
+  .folder:before {
+    content: '📁';
+  }
+  .folder.open:before {
+    content: '📂';
+  }
+  

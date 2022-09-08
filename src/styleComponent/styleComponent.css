@@ -1,0 +1,12 @@
+.btn {
+  background-color: orange;
+  color: #000;
+  width: 250px;
+  font-size: 1em;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.btnText {
+  color: #fff;
+}

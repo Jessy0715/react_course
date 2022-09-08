@@ -1,0 +1,15 @@
+.btn {
+  background-color: lightgreen;
+  color: #000;
+  width: 250px;
+  font-size: 1em;
+  padding: 2rem;
+  border-radius: 5px;
+  &::after {
+    content: '!!';
+    color: #fff;
+  }
+  &__text {
+    color: #fff;
+  }
+}

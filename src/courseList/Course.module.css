@@ -1,0 +1,28 @@
+.course {
+  display: flex;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+.cover {
+  max-width: 300px;
+  height: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info {
+  padding: 0.5em;
+}
+
+.title {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.teacher {
+  margin-right: 1em;
+}
