@@ -47,6 +47,14 @@ import ChatRoom from './chatRoom/ChatRoom';
 // 無限捲動課程列表
 import CourseList from './courseList/CourseList';
 
+import Error from './error/Error';
+
+import Lesson from './portal/Lesson';
+
+
+// Context API 範例
+import Mix from './context/Mix';
+
 //HOC- Toggle範例
 const PromoteCardWithOpen = withOpen(PromoteCard) 
 const TravelCardWithOpen = withOpen(TravelCard)
@@ -114,7 +122,12 @@ function App() {
         <br />
         {/* <Salary /> */}
         {/* <ChatRoom /> */}
-        <CourseList />
+        {/* <CourseList /> */}
+        <br />
+        {/* <Error /> */}
+        {/* <Lesson /> */}
+        <br />
+        <Mix />
       </header>
     </div>
   );
