@@ -59,6 +59,9 @@ import Mix from './context/Mix';
 //列表過濾範例
 import FilterList from './filterList/FilterList';
 
+//井字遊戲範例
+import Game from './game/Game';
+
 //HOC- Toggle範例
 const PromoteCardWithOpen = withOpen(PromoteCard) 
 const TravelCardWithOpen = withOpen(TravelCard)
@@ -127,6 +130,7 @@ function App() {
         {/* <Mix /> */}
         <br />
         {/* <FilterList /> */}
+        <Game />
       </header>
     </div>
   );
