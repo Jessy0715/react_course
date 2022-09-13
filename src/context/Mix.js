@@ -19,16 +19,32 @@ class Mix extends Component {
   }
 
   render() {
-    const { orders } = this.state
+    const { orders } = this.state;
+
+    // 3.使用 OrderContext 寫法- orders 與 addOrder
+    const contextValue = {
+      orders,
+      addOrder: this.addOrder
+    }
     return (
       <div>
-        {/* <Header orders={orders} />
-        <ProductList addOrder={this.addOrder} /> */}
+        {/* 
+        1.原始寫法
+        <Header orders={orders} />
+        <ProductList addOrder={this.addOrder} /> 
+        
+        */}
 
-        {/* 使用 OrderContext 寫法 */}
-        <OrderContext.Provider value={orders}>
+        {/* 2.使用 OrderContext 寫法- 只傳 orders */}
+        {/* <OrderContext.Provider value={orders}>
           <Header />
           <ProductList addOrder={this.addOrder} />
+        </OrderContext.Provider> */}
+
+        {/* 3.使用 OrderContext 寫法- orders 與 addOrder */}
+        <OrderContext.Provider value={contextValue}>
+          <Header />
+          <ProductList />
         </OrderContext.Provider>
       </div>
     )
