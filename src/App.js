@@ -55,6 +55,10 @@ import Lesson from './portal/Lesson';
 // Context API 範例
 import Mix from './context/Mix';
 
+
+//列表過濾範例
+import FilterList from './filterList/FilterList';
+
 //HOC- Toggle範例
 const PromoteCardWithOpen = withOpen(PromoteCard) 
 const TravelCardWithOpen = withOpen(TravelCard)
@@ -101,7 +105,6 @@ function App() {
           {/* <PromoteCardWithOpen />
           <TravelCardWithOpen /> */}
         </div>
-        <br />
         {/*
         使用時機2: 應用在【不同邏輯但相同組件上】
         把共用邏輯放在 hoc上，當作中介媒介
@@ -110,24 +113,20 @@ function App() {
         <TodoList /> */}
         {/* <Card data={lesson} />
         <Card data={lesson2} /> */}
-        <br />
-        <br />
         {/* <FileNode name={files.name} files={files.files} /> */}
         {/* 同上述寫法 */}
         {/* <FileNode {...files} /> */}
-        <br />
         {/* <Mount />
         <Update />
         <UnMount /> */}
-        <br />
         {/* <Salary /> */}
         {/* <ChatRoom /> */}
         {/* <CourseList /> */}
-        <br />
         {/* <Error /> */}
         {/* <Lesson /> */}
+        {/* <Mix /> */}
         <br />
-        <Mix />
+        {/* <FilterList /> */}
       </header>
     </div>
   );
