@@ -62,6 +62,10 @@ import FilterList from './filterList/FilterList';
 //井字遊戲範例
 import Game from './game/Game';
 
+
+//Modal Login 範例
+import ModalMix from './modalLogin/ModalMix';
+
 //HOC- Toggle範例
 const PromoteCardWithOpen = withOpen(PromoteCard) 
 const TravelCardWithOpen = withOpen(TravelCard)
@@ -96,7 +100,7 @@ function App() {
         <ScssComponent>World</ScssComponent>
         <br />
         <FormIntro /> */}
-        <br />
+        {/* <br /> */}
         {/* <h4>HOC練習</h4> */}
         <div style={{ display: 'flex', justifyContent: 'space-between'  ,width: '300px'}}>
         {/* 
@@ -130,7 +134,8 @@ function App() {
         {/* <Mix /> */}
         <br />
         {/* <FilterList /> */}
-        <Game />
+        {/* <Game /> */}
+        <ModalMix />
       </header>
     </div>
   );
