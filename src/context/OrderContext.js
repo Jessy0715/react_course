@@ -13,3 +13,12 @@ const context = createContext({
 });
 
 export default context;
+
+
+
+
+// 解構寫法
+// export const { Provider, Consumer } = createContext({
+//   orders: [],
+//   addOrder: () => {}
+// })

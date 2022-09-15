@@ -53,8 +53,8 @@ class GetDerivedStateFromProps extends Component {
   static getDerivedStateFromProps(nextProps, prevState) {
     if (nextProps.text !== prevState.propText) {
       return {
-        text: nextProps.text, //回傳薪的的那一個
-        propText: nextProps.text //回傳薪的的那一個
+        text: nextProps.text, //回傳新的那一個
+        propText: nextProps.text //回傳新的那一個
       }
     }
     return null;

@@ -66,6 +66,9 @@ import Game from './game/Game';
 //Modal Login 範例
 import ModalMix from './modalLogin/ModalMix';
 
+import UseState from './hooks/UseState';
+import UseEffect from './hooks/UseEffect';
+
 //HOC- Toggle範例
 const PromoteCardWithOpen = withOpen(PromoteCard) 
 const TravelCardWithOpen = withOpen(TravelCard)
@@ -135,7 +138,9 @@ function App() {
         <br />
         {/* <FilterList /> */}
         {/* <Game /> */}
-        <ModalMix />
+        {/* <ModalMix /> */}
+        {/* <UseState /> */}
+        <UseEffect />
       </header>
     </div>
   );
