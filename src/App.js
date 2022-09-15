@@ -69,6 +69,8 @@ import ModalMix from './modalLogin/ModalMix';
 import UseState from './hooks/UseState';
 import UseEffect from './hooks/UseEffect';
 
+import Todo from './todoList/Todo';
+
 //HOC- Toggle範例
 const PromoteCardWithOpen = withOpen(PromoteCard) 
 const TravelCardWithOpen = withOpen(TravelCard)
@@ -140,7 +142,8 @@ function App() {
         {/* <Game /> */}
         {/* <ModalMix /> */}
         {/* <UseState /> */}
-        <UseEffect />
+        {/* <UseEffect /> */}
+        <Todo />
       </header>
     </div>
   );
