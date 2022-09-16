@@ -68,8 +68,11 @@ import ModalMix from './modalLogin/ModalMix';
 
 import UseState from './hooks/UseState';
 import UseEffect from './hooks/UseEffect';
+import UseRef from './hooks/UseRef';
 
 import Todo from './todoList/Todo';
+
+import UseContext from './hooks/useContext/UseContext';
 
 //HOC- Toggle範例
 const PromoteCardWithOpen = withOpen(PromoteCard) 
@@ -143,7 +146,9 @@ function App() {
         {/* <ModalMix /> */}
         {/* <UseState /> */}
         {/* <UseEffect /> */}
-        <Todo />
+        <UseRef />
+        {/* <Todo /> */}
+        {/* <UseContext /> */}
       </header>
     </div>
   );
