@@ -38,7 +38,7 @@ class Mount extends Component {
   //   })
   // }
 
-  // componentDidMount() {
+  // componentDid Mount() {
   //   this.fetchList()
   // }
 
