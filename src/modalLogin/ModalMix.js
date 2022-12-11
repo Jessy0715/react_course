@@ -7,8 +7,7 @@ class ModalMix extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      // modal: null,
-      modal: 'login',
+      modal: null,
       login: false,
     }
   }

@@ -22,6 +22,7 @@ import { Consumer } from "./modalContext";
 
 // 後來改寫成 Functional component
 const Header = () => {
+  return (
   <Consumer>
     {({ setState }) => (
       <div className="header">
@@ -38,6 +39,7 @@ const Header = () => {
       </div>
     )}
   </Consumer>
+  )
 };
 
 export default Header;

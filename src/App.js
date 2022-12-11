@@ -144,13 +144,13 @@ function App() {
         <br />
         {/* <FilterList /> */}
         {/* <Game /> */}
-        {/* <ModalMix /> */}
+        <ModalMix />
         {/* <UseState /> */}
         {/* <UseEffect /> */}
         {/* <UseRef /> */}
         {/* <UseContext /> */}
         {/* <Todo /> */}
-        <Cookie />
+        {/* <Cookie /> */}
       </header>
     </div>
   );

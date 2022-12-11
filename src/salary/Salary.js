@@ -49,7 +49,7 @@ class Salary extends Component {
         <label>經過時間:</label>
         <span>{ time.toFixed(1)}</span>
         <br />
-        <label>偷取時間:</label>
+        <label>偷取薪水:</label>
         <span>{ (time * second).toFixed(1) }</span>
       </div>
     )
